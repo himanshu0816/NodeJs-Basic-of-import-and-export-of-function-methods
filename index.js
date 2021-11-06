@@ -1,0 +1,8 @@
+// console.log("Hello World!!")
+// console.log(this)
+const Person=require('./person')
+// console.log(Person)
+const Test=require('./test')
+const john=new Person('John',35)
+john.greeting()
+// console.log(Test)
